@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<action id="com.onecrayon.TextActions.JumpToLine-Simmons-style" category="">
+		<class>OCGoToLineStart</class>
+		<title>Go to Line Start...</title>
+		<key-equivalent>control l</key-equivalent>
+	</action>
+	
+</action-recipes>

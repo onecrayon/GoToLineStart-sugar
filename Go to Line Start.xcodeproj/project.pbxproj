@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ADB6D1A14857A2500387A10 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADB6D1914857A2500387A10 /* Cocoa.framework */; };
+		7ADB6D2E14857AAB00387A10 /* OCGoToLineStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB6D2D14857AAB00387A10 /* OCGoToLineStart.m */; };
+		7ADB6D3114857ABA00387A10 /* OCGoToLineStartWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB6D3014857ABA00387A10 /* OCGoToLineStartWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7ADB6D1614857A2500387A10 /* Go to Line Start.sugar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go to Line Start.sugar"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADB6D1914857A2500387A10 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7ADB6D1D14857A2500387A10 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		7ADB6D1E14857A2500387A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADB6D2C14857AAB00387A10 /* OCGoToLineStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCGoToLineStart.h; sourceTree = "<group>"; };
+		7ADB6D2D14857AAB00387A10 /* OCGoToLineStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCGoToLineStart.m; sourceTree = "<group>"; };
+		7ADB6D3014857ABA00387A10 /* OCGoToLineStartWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCGoToLineStartWindow.xib; sourceTree = "<group>"; };
+		7ADB6D3214857B3D00387A10 /* Actions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Actions.xml; path = TextActions/Actions.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ADB6D1214857A2500387A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADB6D1A14857A2500387A10 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ADB6D0A14857A2500387A10 = {
+			isa = PBXGroup;
+			children = (
+				7ADB6D1B14857A2500387A10 /* Go to Line Start */,
+				7ADB6D1814857A2500387A10 /* Frameworks */,
+				7ADB6D1714857A2500387A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ADB6D1714857A2500387A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB6D1614857A2500387A10 /* Go to Line Start.sugar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ADB6D1814857A2500387A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB6D1914857A2500387A10 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ADB6D1B14857A2500387A10 /* Go to Line Start */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB6D3014857ABA00387A10 /* OCGoToLineStartWindow.xib */,
+				7ADB6D2B14857AAB00387A10 /* Classes */,
+				7ADB6D1F14857A2500387A10 /* XML Based */,
+				7ADB6D1C14857A2500387A10 /* Supporting Files */,
+			);
+			path = "Go to Line Start";
+			sourceTree = "<group>";
+		};
+		7ADB6D1C14857A2500387A10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB6D1D14857A2500387A10 /* Prefix.pch */,
+				7ADB6D1E14857A2500387A10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ADB6D1F14857A2500387A10 /* XML Based */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB6D3214857B3D00387A10 /* Actions.xml */,
+			);
+			path = "XML Based";
+			sourceTree = "<group>";
+		};
+		7ADB6D2B14857AAB00387A10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB6D2C14857AAB00387A10 /* OCGoToLineStart.h */,
+				7ADB6D2D14857AAB00387A10 /* OCGoToLineStart.m */,
+			);
+			name = Classes;
+			path = "Go to Line Start/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ADB6D1514857A2500387A10 /* Go to Line Start */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADB6D2214857A2500387A10 /* Build configuration list for PBXNativeTarget "Go to Line Start" */;
+			buildPhases = (
+				7ADB6D1114857A2500387A10 /* Sources */,
+				7ADB6D1214857A2500387A10 /* Frameworks */,
+				7ADB6D1314857A2500387A10 /* Resources */,
+				7ADB6D1414857A2500387A10 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go to Line Start";
+			productName = "Go to Line Start";
+			productReference = 7ADB6D1614857A2500387A10 /* Go to Line Start.sugar */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ADB6D0C14857A2500387A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MacRabbit;
+			};
+			buildConfigurationList = 7ADB6D0F14857A2500387A10 /* Build configuration list for PBXProject "Go to Line Start" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7ADB6D0A14857A2500387A10;
+			productRefGroup = 7ADB6D1714857A2500387A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ADB6D1514857A2500387A10 /* Go to Line Start */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ADB6D1314857A2500387A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADB6D3114857ABA00387A10 /* OCGoToLineStartWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7ADB6D1414857A2500387A10 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Copy all files in the \"XML Based\" folder into the root of the final Sugar\nrsync -a --exclude=\".*\"  \"$SRCROOT/$PRODUCT_NAME/XML Based/\" \"$TARGET_BUILD_DIR/$WRAPPER_NAME/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ADB6D1114857A2500387A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADB6D2E14857AAB00387A10 /* OCGoToLineStart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7ADB6D2014857A2500387A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PREPROCESSOR_DEFINITIONS = NS_BUILD_32_LIKE_64;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7ADB6D2114857A2500387A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PREPROCESSOR_DEFINITIONS = NS_BUILD_32_LIKE_64;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7ADB6D2314857A2500387A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				ESPRESSO_PATH = /Applications/Espresso.app;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Go to Line Start/Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(ESPRESSO_PATH)/Contents/Headers";
+				INFOPLIST_FILE = "Go to Line Start/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = sugar;
+			};
+			name = Debug;
+		};
+		7ADB6D2414857A2500387A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ESPRESSO_PATH = /Applications/Espresso.app;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Go to Line Start/Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(ESPRESSO_PATH)/Contents/Headers";
+				INFOPLIST_FILE = "Go to Line Start/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = sugar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ADB6D0F14857A2500387A10 /* Build configuration list for PBXProject "Go to Line Start" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADB6D2014857A2500387A10 /* Debug */,
+				7ADB6D2114857A2500387A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADB6D2214857A2500387A10 /* Build configuration list for PBXNativeTarget "Go to Line Start" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADB6D2314857A2500387A10 /* Debug */,
+				7ADB6D2414857A2500387A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ADB6D0C14857A2500387A10 /* Project object */;
+}
