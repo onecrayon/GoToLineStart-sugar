@@ -3,7 +3,7 @@
 //  Go To Line Start
 //
 //  Created by Ian Beck on 11/29/11.
-//  Copyright 2011 One Crayon. All rights reserved.
+//  Copyright 2011 One Crayon. MIT license.
 //
 
 #import "OCGoToLineStart.h"
